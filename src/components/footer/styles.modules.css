@@ -1,0 +1,7 @@
+.menu{
+    position: fixed;
+    top:40vh;
+    left:0;
+    border-radius: 7px;
+    z-index: 2;
+}
