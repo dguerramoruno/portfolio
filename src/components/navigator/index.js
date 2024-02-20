@@ -15,7 +15,7 @@ export const Navigator = () => {
         }
       },[]);
     return (
-        <nav className='p-6 w-screen flex justify-between bg-gray-900 text-gray-300 fixed' >
+        <nav className='p-6 w-screen flex justify-between bg-gray-900 text-gray-300 fixed z-10' >
             <h1 className='text-2xl font-black drop-shadow-md items-center'>David Guerra, Desarrollador WEB</h1>
             <div className=''>
                 <Link className="mr-4" href="/about">About me</Link>
