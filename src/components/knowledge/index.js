@@ -1,6 +1,5 @@
 import Image from "next/image";
-import styles from "./styles.modules.css";
-
+import styles from './styles.modules.css'
 const languages = [
   {
     id: 1,
@@ -45,23 +44,22 @@ const languages = [
 ];
 export const Knowledge = () => {
   return (
-    <div className="knowledge h-screen">
-      <h3 className="font-bold text-2xl ">SKILLS:</h3>
-      <p>Estas son las tecnologias que utilizado en mis projectos:</p>
-      <div className="grid grid-cols-4 gap-6">
+    <div className="knowledge  h-screen snap-center relative flex flex-col gap-6 top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]">
+      <h3 className="font-bold text-8xl text-gray mt-60 ">TECNOLOGIAS:</h3>
+      <p className="text-gray text-2xl">Estas son las tecnologias que utilizado en mis projectos:</p>
+      <div className="grid grid-cols-1 sm:grid-cols-4 gap-12">
         {languages.map((language) => (
           <div
             key={language.id}
-            className=" bg-slate-200 flex-col justify-center items-center p-6 rounded-md shadow-md m-2"
+            className=" divs-lang flex-col  justify-center items-center p-6 rounded-md shadow-sm  m-2 animate-fade-in-down"
           >
             <Image
-              className="object-contain"
+              className="object-contain langs "
               src={language.route}
               width={100}
               height={100}
               alt={language.alt}
             />
-            <span className="text-center">{language.alt}</span>
           </div>
         ))}
       </div>

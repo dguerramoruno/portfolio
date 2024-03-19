@@ -1,7 +1,19 @@
 .menu{
     position: fixed;
-    top:40vh;
-    left:0;
-    border-radius: 7px;
+    flex-direction: column;
+    top:35vh;
+    left:0vw;
+    border-radius: 12px;
     z-index: 2;
+}
+
+@media only screen and (max-width: 768px) {
+    .menu {
+        position: absolute;
+        top: auto; /* Eliminamos la posición superior fija */
+        bottom: 0; /* Lo colocamos en la parte inferior */
+        left: 50%; /* Lo centramos horizontalmente */
+        transform: translateX(-50%); /* Centramos horizontalmente */
+        
+    }
 }

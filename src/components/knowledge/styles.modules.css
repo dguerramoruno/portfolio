@@ -3,7 +3,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 3rem 0;
+    
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
 }
-img{
-    height: 100px !important;
+.langs{
+    height: 200px !important;
+    width: 200px;
+}
+.center{
+    text-align: center !important;
+}
+.text-gray{
+    color: #F2FDFF;
 }

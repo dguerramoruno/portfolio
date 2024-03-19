@@ -1,0 +1,10 @@
+
+
+.main {
+    position: relative;
+    overflow: hidden;
+    background:
+    linear-gradient(90deg, #101935 1px, transparent 1px 10vmin) 0 -5vmin / 10vmin 10vmin,
+    linear-gradient(#101935 1px, transparent 1px 10vmin) 0 -5vmin / 10vmin 10vmin;
+    mask-image: radial-gradient(ellipse at center, rgba(0, 0, 0, 1), transparent 85%);
+}

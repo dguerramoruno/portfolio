@@ -1,12 +1,11 @@
-'use client'
-import { useEffect, useState } from 'react'
-import styles from './styles.modules.css'
+import styles from './styles.module.css'
+
 
 export const About = () => {
     return(
-        <div className='h-screen flex flex-col justify-center items-center font-bold'>
-            <h1 className="text-9xl animate-fade-in-down">DAVID GUERRA</h1>
-            <p className="text-6xl animate-fade-in-down">Web Developer</p>
+        <div id='about' className={`h-screen flex flex-col justify-center items-center font-bold snap-center ${styles.main}`}>
+            <h1 className="text-6xl lg:text-9xl animate-fade-in-down name">DAVID GUERRA</h1>
+            <p className="text-4xl lg:text-6xl animate-fade-in-down position">Web Developer</p>
         </div>
     )
 }
