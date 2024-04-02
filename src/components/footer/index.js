@@ -1,5 +1,5 @@
 "use client";
-import styles from "./styles.modules.css";
+import styles from './styles.modules.css'
 import Image from "next/image";
 import { useEffect, useCallback, useState } from "react";
 import { GET } from '../../app/api/getSongs/route';
@@ -16,7 +16,7 @@ import { faInbox } from "@fortawesome/free-solid-svg-icons";
 export const Footer = () => {
   
   return (
-    <div className={`h-15 w-15 p-4 m-4 ${styles.menu}  flex gap-12 `}>
+    <div className={`h-15 w-15 p-4 m-4 flex gap-12 menu `}>
       <a
         className="text-black opacity-100"
         href="https://www.linkedin.com/in/david-guerra-moruno"

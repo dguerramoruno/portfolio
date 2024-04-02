@@ -37,14 +37,14 @@ export const Navigator = () => {
   }, []);
 
   return (
-    <nav className={`p-12 w-screen flex flex-col lg:flex-row lg:gap-12 h-20 items-center justify-between opacity-95 text-gray-200 fixed z-10 fixed top-0 z-2  w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]`}>
+    <nav className={`p-12 w-screen flex flex-col lg:flex-row lg:gap-12 h-40 lg:h-20 items-center justify-between opacity-95 text-gray-200 fixed z-10 fixed top-0 z-2  w-1 bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]`}>
       <div className="flex flex-col">
         <h1 className="text-2xl font-black drop-shadow-md items-center">
           David Guerra Moruno
         </h1>
         <span>{date}</span>
       </div>
-      <div className="w-30">
+      <div className="w-30 invisible lg:visible">
         <a className="mr-4 text-xl font-bold" href="/#about">
           Sobre Mi
         </a>
@@ -76,7 +76,7 @@ export const Navigator = () => {
             alt="currentSong"
           />
         </div>
-      ) : <p>Nada reproduciendose</p>}
+      ) : <p className="invisible lg:visible">Nada reproduciendose</p>}
       </div>
     </nav>
   );

@@ -7,13 +7,11 @@
     z-index: 2;
 }
 
-@media only screen and (max-width: 768px) {
-    .menu {
-        position: absolute;
-        top: auto; /* Eliminamos la posición superior fija */
-        bottom: 0; /* Lo colocamos en la parte inferior */
-        left: 50%; /* Lo centramos horizontalmente */
-        transform: translateX(-50%); /* Centramos horizontalmente */
-        
+@media only screen and (max-width: 600px) {
+    .menu{
+        position: relative;
+        top:0;
+        left: 15vw;
+        flex-direction: row;
     }
-}
+  }

@@ -17,3 +17,8 @@
 .text-gray{
     color: #F2FDFF;
 }
+@media only screen and (max-width: 600px) {
+    .knowledge{
+        padding-bottom: 20em;
+    }
+  }
