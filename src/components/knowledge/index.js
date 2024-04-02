@@ -13,7 +13,7 @@ const languages = [
   },
   {
     id: 3,
-    route: "/images/react.svg.png",
+    route: "/images/React.png",
     alt: "REACT",
   },
   {

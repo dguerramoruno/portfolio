@@ -37,7 +37,7 @@ export const Proyects = () => {
       id="proyects"
       className="proyects h-screen flex flex-col justify-center items-center snap-center w-full gap-12  mt-96"
     >
-      <h3 className="font-bold text-4xl ">PROYECTOS</h3>
+      <h3 className="font-bold text-6xl ">PROYECTOS</h3>
       <div className="flex flex-wrap flex-col lg:flex-row items-center justify-center gap-6 ">
         {projects.map((project) => (
           <div
