@@ -44,7 +44,7 @@ const languages = [
 ];
 export const Knowledge = () => {
   return (
-    <div className="knowledge  h-full lg:h-screen snap-center relative flex flex-col gap-6 top-0 z-[-2] p-60 w-full bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]">
+    <div className="knowledge  h-full lg:h-full  snap-center relative flex flex-col gap-6 top-0 z-[-2] p-60 w-full bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]">
       <h3 className="font-bold text-2xl lg:text-8xl text-gray mt-60 ">TECNOLOGIAS:</h3>
       <p className="text-gray text-center text-md lg:text-2xl">Estas son las tecnologias que utilizado en mis projectos:</p>
       <div className="grid grid-cols-1 sm:grid-cols-4 gap-12">
